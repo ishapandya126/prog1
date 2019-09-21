@@ -111,8 +111,6 @@ function getInputBoxes() {
 } // end get input boxes
 
 
-
-
 // put random points in the boxes from the class github
 function drawRandPixelsInInputBoxes(context) {
     var inputBoxes = getInputBoxes();
