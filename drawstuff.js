@@ -88,11 +88,10 @@ function drawRandPixels(context) {
 
 
 
-
 //get the input boxex from the standard class URL
 function getInputBoxes() {
     const INPUT_BOXES_URL = 
-        "https://ishapandya126.github.io/prog1/boxes.json";
+        "https://ncsucgclass.github.io/prog1/boxes.json";
         
     // load the boxes file
     var httpReq = new XMLHttpRequest(); // a new http request
@@ -217,6 +216,17 @@ function main() {
     //drawRandPixels(context);
       // shows how to draw pixels
     
+    //drawRandPixelsInInputEllipsoids(context);
+      // shows how to draw pixels and read input file
+      
+    //drawInputEllipsoidsUsingArcs(context);
+      // shows how to read input file, but not how to draw pixels
+    
+    //drawRandPixelsInInputTriangles(context);
+    // shows how to draw pixels and read input file
+    
+    //drawInputTrainglesUsingPaths(context);
+    // shows how to read input file, but not how to draw pixels
     
     drawRandPixelsInInputBoxes(context);
 	// shows how to draw pixels and read input file
